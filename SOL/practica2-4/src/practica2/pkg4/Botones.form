@@ -450,14 +450,14 @@
     <Component class="javax.swing.JLabel" name="Tick">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/media/green-check-mark-icon-with-circle-tick-box-check-list-circle-frame-checkbox-symbol-sign-png.png"/>
+          <Image iconType="3" name="/media/check.png"/>
         </Property>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="Tick_f">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/media/green-check-mark-icon-with-circle-tick-box-check-list-circle-frame-checkbox-symbol-sign-png.png"/>
+          <Image iconType="3" name="/media/check.png"/>
         </Property>
         <Property name="enabled" type="boolean" value="false"/>
       </Properties>

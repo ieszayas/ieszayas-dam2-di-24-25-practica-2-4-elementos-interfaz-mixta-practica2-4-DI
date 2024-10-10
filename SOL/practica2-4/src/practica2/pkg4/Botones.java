@@ -21,6 +21,7 @@ public class Botones extends javax.swing.JFrame {
      */
     public Botones() {
         initComponents();
+        setLocationRelativeTo(null);
         Tick.setVisible(false);
         Tick_f.setVisible(false);
         Texto_check.setVisible(false);
@@ -207,9 +208,9 @@ public class Botones extends javax.swing.JFrame {
         Toggle_f.setRolloverEnabled(false);
         Toggle_f.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/media/b_on.png"))); // NOI18N
 
-        Tick.setIcon(new javax.swing.ImageIcon(getClass().getResource("/media/green-check-mark-icon-with-circle-tick-box-check-list-circle-frame-checkbox-symbol-sign-png.png"))); // NOI18N
+        Tick.setIcon(new javax.swing.ImageIcon(getClass().getResource("/media/check.png"))); // NOI18N
 
-        Tick_f.setIcon(new javax.swing.ImageIcon(getClass().getResource("/media/green-check-mark-icon-with-circle-tick-box-check-list-circle-frame-checkbox-symbol-sign-png.png"))); // NOI18N
+        Tick_f.setIcon(new javax.swing.ImageIcon(getClass().getResource("/media/check.png"))); // NOI18N
         Tick_f.setEnabled(false);
 
         Texto_check.setText("Verificado correctamente");
